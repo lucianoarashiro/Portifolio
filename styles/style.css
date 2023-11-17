@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+/* Amarelo claro  #ffd60a
+   Amarelo escuro #ffc300
+   Azul claro     #003566
+   Azul escuro    #001d3d
+   Preto          #000814 */
+
+:root {
+    --cor_primaria: #000000;
+    --cor_secundaria: #F6F6F6;
+    --cor_terciaria: #22D4FD;
+    --cor_hover: #272727;
+
+    --fonte_primaria: 'Krona One', sans-serif;
+    --fonte_secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor_primaria);
+    color: var(--cor_secundaria);
+}
+h1 {
+    font-family: var(--fonte_primaria);
+}
+
+.titulo__destaque {
+    color: var(--cor_terciaria);
+}
+
+p {
+    font-family: var(--fonte_secundaria)
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 0px 80px;
+}
+
+.cabecalho__menu__link {
+    color: var(--cor_terciaria);
+    font-family: var(--fonte_secundaria);
+    font-size: 1,5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover, .cabecalho__menu__link:active {
+    color: var(--cor_secundaria);
+}
+
+.apresentacao{
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte_primaria);
+}
+
+.apresentacao__conteudo_texto {
+    font-size: 1,5rem;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.apresentacao__links_subtitulo {
+    font-family: var(--fonte_primaria);
+    font-weight: 400;
+    font-size: 1,5rem;
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+    border: 2px solid var(--cor_terciaria);
+    border-radius: 8px;
+    
+    color: var(--cor_secundaria);
+    
+    font-size: 1,5rem;
+    font-weight: 600;
+    font-family: var(--fonte_secundaria);
+    text-decoration: none;
+    
+    padding: 21.5px 0px;
+    width: 50%;
+}
+
+.apresentacao__links__botao:hover, .apresentacao__links__botao:active {
+    background-color: var(--cor_hover);
+}
+
+.sobre_mim{
+    padding: 3% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sobre_mim__title {
+    font-family: var(--fonte_primaria);
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.sobre_mim__overview{
+    display: flex;
+    gap: 24px;
+}
+
+.sobre_mim__title{
+    margin: 0 0 5% 0;
+}
+
+.sobre_mim__overview__title{
+    display: flex;
+    gap: 24px;
+}
+
+.sobre_mim__overview__title__null{
+    width: 30%;
+}
+
+.sobre_mim__overview__title__title{
+    width: 70%;
+    font-family: var(--fonte_primaria);
+    color: var(--cor_terciaria);
+    text-transform: uppercase;
+}
+
+.sobre_mim__overview__hashtags__title{
+    font-size: 1,5rem;
+}
+
+.sobre_mim__overview__hashtags{
+    font-family: var(--fonte_primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    width: 30%;
+    margin: 24px 0;
+    line-height: 2.5;
+}
+
+.sobre_mim__overview__text {
+    width: 70%;
+}
+
+.sobre_mim__overview__text__paragrafo {
+    font-size: 1,5rem;
+    margin: 24px 0;
+    line-height: 1.6;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--cor_primaria);
+    background-color: var(--cor_terciaria);
+
+    text-align: center;
+    font-family: var(--fonte_secundaria);
+    font-size: 1,5rem;
+    font-weight: 400;
+    
+    padding: 24px;
+}
+
+@media (max-width: 1200px){
+
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+       
+}
