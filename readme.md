@@ -1,5 +1,14 @@
+![Badge Status](https://img.shields.io/badge/Status-Em_desenvolvimento-green)
+
+---
+
 # Sobre este projeto
-Este é um projeto pessoal com os meus estudos e projetos em uma formação FrontEnd.
+Olá, mundo!
+Este é um projeto pessoal para divulgação e compartilhamento dos meus estudos e projetos em uma formação FrontEnd.
 
 ## Últimas atualizações
-- 2023-11-16 - Criação inicial e publicação do projeto.
+- 2023-11-18
+    - Criado o arquivo readme.md
+- 2023-11-16
+    - Criação inicial e publicação do projeto.
+
