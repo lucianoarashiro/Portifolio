@@ -14,6 +14,6 @@ Este é um projeto pessoal para divulgação e compartilhamento dos meus estudos
 
 ## Quem sou eu
 
-<img src="https://github.com/lucianoarashiro.png" width="60px;"/>
-<br />
-[<sub><ahref="https://github.com/lucianoarashiro">Luciano Arashiro</a></sub>](https://github.com/lucianoarashiro/portifolio)
+
+| [<img src="https://github.com/lucianoarashiro.png" width="60px;" style="border-radius: 50%;"/><br><sub>Luciano Arashiro</sub>](https://github.com/lucianoarashiro/portifolio) |
+| :---: |
